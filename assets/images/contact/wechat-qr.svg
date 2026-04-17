@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+  <rect width="900" height="900" fill="#f6f6f6"/>
+  <rect x="90" y="90" width="720" height="720" fill="#fff" stroke="#cfd5dc" stroke-width="18"/>
+  <g fill="#1f2933">
+    <rect x="145" y="145" width="170" height="170"/>
+    <rect x="585" y="145" width="170" height="170"/>
+    <rect x="145" y="585" width="170" height="170"/>
+    <rect x="380" y="380" width="55" height="55"/>
+    <rect x="470" y="380" width="55" height="55"/>
+    <rect x="380" y="470" width="55" height="55"/>
+    <rect x="560" y="470" width="55" height="55"/>
+    <rect x="470" y="560" width="55" height="55"/>
+    <rect x="560" y="560" width="55" height="55"/>
+  </g>
+  <text x="450" y="850" text-anchor="middle" font-size="38" fill="#8f1d22" font-family="Arial, sans-serif">微信二维码占位图</text>
+</svg>

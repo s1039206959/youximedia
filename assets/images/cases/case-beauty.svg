@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <rect width="1600" height="1000" fill="#f4f5f7"/>
+  <rect x="90" y="90" width="1420" height="820" rx="26" fill="#ffffff" stroke="#d9dde3"/>
+  <text x="800" y="460" text-anchor="middle" font-size="88" fill="#5d6778" font-family="Arial, sans-serif">美妆产品案例</text>
+  <text x="800" y="560" text-anchor="middle" font-size="42" fill="#8f1d22" font-family="Arial, sans-serif">Beauty Product</text>
+</svg>
