@@ -357,3 +357,19 @@ p {
     padding: 54px 0;
   }
 }
+/* ===== 案例图片悬浮放大效果 ===== */
+
+.case-image {
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.case-image img {
+  width: 100%;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.case-image:hover img {
+  transform: scale(1.06);
+}
