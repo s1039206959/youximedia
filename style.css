@@ -409,3 +409,47 @@ p {
 .logo-marquee:hover .logo-track {
   animation-play-state: paused;
 }
+/* ===== LOGO 横向滚动 ===== */
+.logo-marquee {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.logo-track {
+  display: flex;
+  width: max-content;
+  animation: scrollLogo 25s linear infinite;
+}
+
+.logo-item {
+  min-width: 220px;
+  margin-right: 20px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  flex-shrink: 0;
+}
+
+.logo-item img {
+  max-width: 100%;
+  height: 60px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-marquee:hover .logo-track {
+  animation-play-state: paused;
+}
+
+@keyframes scrollLogo {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
